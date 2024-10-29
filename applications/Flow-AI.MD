@@ -12,14 +12,28 @@
 
 Flow AI lets web3 protocol communities to easily deploy AI Agents to gather insights from their onchain and offchain data, with the goal to onboard new members and activate the existing ones.
 
-Flow AI today is for web3 protocol communities, to solve the onboarding and activation problem, and increase protocol valuation. In the future Flow AI has the goal to become a marketplace, where AI Agents can network to exchange tools and data.
+Today new members can use Flow AI to learn Polkadot by finding, documentation, events, and hackathons. Today power users can use it to gather intelligence, run researches, and getting daily digests.
+
+In the future Flow AI will introduce more features, such as write smart contracts and testing them, running transactions via intents, for example to run yield farming autonomously.
 
 
 ### Project Details
 
 #### Architecture:
 
-Our platform is built in python and react/remix on top of Kubernetes. We run AI-driven ETLs on Argo. We use a combination of LLMs and SLMs, implemented a RAG fine tuned for web3 (bigquery + Qdrant), and integrated web3 tools into the agents.
+Our platform is built in python and react/remix on top of Kubernetes. We run AI-driven ETLs on Argo (AI creates the schema, takes care of dedup and other actions that require human decisions). We use a combination of LLMs (GPT4, Sonnet3.5, Gemini) and SLMs (GPT4o, Haiku3.5, Llama 7b). We implemented a SOTA RAG and fine tuned for web3 (bigquery + Qdrant). We also integrated web3 tools into the agents, such as Dune, Etherscan, TheGraph and more.
+
+Our current ecosystem tools and integrations includes:
+- Dapps
+- Social channels: twitter, telegram, discord, discourse
+- News and blog posts
+- Knowledge: docs, wiki, youtube
+- Events & hackathons: luma, partiful, and conferences
+- Proposals
+
+On top of that we also run integrations with web3 applications such as Etherscan, Dune Analytics, Coingecko, TheGraph, and we're actively adding more.
+
+
 
 ### Team members
 
@@ -65,23 +79,28 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 ## Development Status :open_book:
 
-...
+Flow AI is currently in beta release only for Internet Computer users and Etherscan.
 
 
 ### Overview
 
 - **Total Estimated Duration:** 2 month
 - **Full-Time Equivalent (FTE):** 2 ( 2 Full time Developers at 0.5 FTE/month)
-- **Total Costs:** 20,000 USD
+- **Total Costs:** 30,000 USD
 
-### Milestone 1 - Launching polkadot.flowai.xyz for knowledge base and ecosystem
+### Milestone 1 - Launch Polkadot Flow AI, integrate with social channels and knowledge base
 - **Estimated duration:** 1 month
 - **FTE:** 2
 - **Costs:** 10,000 USD
 
-### Milestone 2 - Polkadot data onchain analytics
+### Milestone 2 - Integrate Polkadot Flow AI onchain data analytics dashboards via Dune and block explorer
 - **Estimated duration:** 1 month
-- **FTE:** 1
+- **FTE:** 2
+- **Costs:** 10,000 USD
+
+### Milestone 3 - Integrate Polkadot Flow AI onchain data analytics dashboards via Dune and block explorer
+- **Estimated duration:** 1 month
+- **FTE:** 2
 - **Costs:** 10,000 USD
 
 
