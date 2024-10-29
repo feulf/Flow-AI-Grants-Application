@@ -33,6 +33,7 @@ Our current ecosystem tools and integrations includes:
 
 On top of that we also run integrations with web3 applications such as Etherscan, Dune Analytics, Coingecko, TheGraph, and we're actively adding more.
 
+todo: add image here of flow ai with chart
 
 
 ### Team members
